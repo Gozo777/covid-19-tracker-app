@@ -8,3 +8,6 @@ body {
   width: 100%;
   font-weight: bold !important;
 }
+
+@media screen and (max-width: 768px) {
+}

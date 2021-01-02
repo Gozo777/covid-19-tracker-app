@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <Global />
+      <Global/>
       <Countries/>
     </div>
   );

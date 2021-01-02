@@ -25,7 +25,7 @@ export default class Global extends Component {
         "TotalConfirmed": corona.TotalConfirmed,
         "TotalDeaths": corona.NewDeaths,
         "TotalRecovered": corona.TotalRecovered,
-        "ActiveCase": corona.TotalConfirmed - (corona.TotalConfirmed + corona.TotalDeaths)
+        "ActiveCase": corona.TotalConfirmed - (corona.TotalRecovered + corona.TotalDeaths)
       }
     })
   }
